@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#urunler{
+    background-color: #bbbfc4;
+}
+a{
+    text-decoration: none;
+}
+#topbar{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    border-bottom: solid 1px #000 ;
+}
+#topbar h1{
+    padding: 8px 1px 9px 10px;
+    background-color: #000;
+    color: #d2d200;
+}
+
+#topbar h1 span{
+    padding: 10px 1px 10px 1px;
+    background-color: #d2d200;
+    color: #000;
+}
+
+#topbar #arama input{
+    padding: 3px;
+    width: 400px;
+    height: 40px;
+}
+#topbar #arama i{
+    color: #d2d200;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #000000;
+    
+}
+#topbar #arama{
+    justify-content: space-between;
+    align-items: center;
+}
+.kapsayici{
+    display: flex;
+    width: 80%;
+    margin: auto;  
+}
+#topbar .kapsayici{
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    display: flex;
+}
+
+#topbar #iletisim{
+    margin:10px
+}
+
+/*Top bar Bitiş*/
+
+/*Navbar Başlangıç*/
+
+#navbar{
+    display: flex;
+    width: 100%;
+    background-color: #6c757d;
+}
+#navbar .kapsayici{
+    line-height: 50px;
+    justify-content: space-between;
+}
+
+#navbar #left a{
+    margin-right: 30px;
+    color: #000 ;
+}
+
+#navbar #left a:hover{
+    color: #d2d200;
+    transition: 3s;
+}
+
+#navbar #left a:first-child{
+    padding: 17px 60px 17px 20px;
+    background-color: #d2d200;
+}
+#navbar #right a{
+    color: #d2d200;
+}
+
+/*Navbar bitiş*/
+
+/*Ürünle Başlayış*/
+
+#urunler{
+    width: 100%;
+    display: flex;
+}
+#urunler .kapsayici{
+    margin-top: 100px;
+    justify-content: space-between; 
+}
+#urunler .urun{
+    justify-content: space-between;
+    border: 1px solid #000;
+    margin-right: 20px;
+}
+#urunler .urun h3{
+    background-color: #bbbfc4;
+    margin-top: 10px;
+    text-align: center;
+}
+#urunler .urun h5{
+    background-color: #bbbfc4;
+    margin-top: 10px;
+    text-align: center;
+}
+#urunler .urun img{
+    width: 400px;
+    height: 400px;
+}
+body{
+    background-color: #bbbfc4;
+}
+
